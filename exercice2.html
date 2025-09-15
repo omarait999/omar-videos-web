@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+  .div{
+    display: inline-block;
+    background-color: rgba(42, 43, 42, 0.986);
+    margin-left: 20px;
+    width: 300px;
+    border-style: solid;
+    border-color: rgb(22, 136, 182);
+    vertical-align: top;
+    height: 137px;
+    
+  }
+  .question{
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+  }
+  .yes{
+    margin-left: 100px;
+    margin-bottom: 5px;
+    width: 40px;
+    height: 40px;
+    border-color:rgb(22, 136, 182);
+    border-style: solid;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    transition: width 1s,
+    height 1s,
+    background-color 1s,
+    color 1s,
+    box-shadow 1s;
+   }
+   .yes:hover{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10px rgba(22, 136, 182, 10);
+   }
+   .yes:active{
+    opacity: 0.5;
+   }
+   .no{
+     margin-left: 20px;
+    margin-bottom: 5px;
+    width: 40px;
+    height: 40px;
+    border-color:rgb(22, 136, 182);
+    border-style: solid;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    transition: width 1s,
+    height 1s,
+    background-color 1s,
+    color 1s,
+    box-shadow 1s;
+   }
+   .no:hover{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10px rgba(22, 136, 182, 10);
+   }
+   .no:active{
+    opacity: 0.5;
+   }
+   .dov{
+    display: inline-block;
+    background-color: rgba(42, 43, 42, 0.986);
+    margin-left: 20px;
+    width: 300px;
+    border-style: solid;
+    border-color: rgb(22, 136, 182);
+   }
+   .if-text{
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+   }
+   .problem-box{
+    margin-left: 50px;
+    margin-bottom: 5px;
+    width: 200px;
+    height: 40px;
+    border-color:rgb(22, 136, 182);
+    border-style: solid;
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    transition: width 1s,
+    height 1s,
+    background-color 1s,
+    color 1s,
+    box-shadow 1s,
+    margin-left 1s;
+   }
+   .problem-box:hover{
+    width: 250px;
+    height: 60px;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10px rgba(22, 136, 182, 10);
+    margin-left: 20px;
+   }
+   .problem-box:active{
+    opacity: 0.5;
+   }
+
+    </style>
+  </head>
+  <body>
+    <div class="div">
+      <p class="question">
+      Satisfied with our service?
+    </p>
+    <button class="yes">
+      Yes
+    </button>
+    <button class="no">
+      No
+    </button>
+    </div>
+    <div class="dov">
+      <p class="if-text">
+        if you don't satisfied writre your problem right here:
+      </p>
+      <input type="text" placeholder="my problem is..." class="problem-box">
+
+    </div>
+  </body>
+</html>

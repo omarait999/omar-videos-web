@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .ciel{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: rgb(124, 148, 158);
+        border: rgb(124, 148, 158);
+        border-style: solid;
+        height: 20px;
+      }
+      .soleil{
+        display: inline-block;
+        background-color: rgb(255, 187, 0);
+        border-color: rgb(255, 208, 0);
+        color: rgb(255, 187, 0);
+        font-size: 1px;
+        font-family: arial;
+        border-style: solid;
+        border-radius: 30px;
+        height: 30px;
+        width: 30px;
+        border-width: 2px;
+        box-shadow: 0px 0px 30px rgba(255, 208, 0, 10);
+        transition: border-radius 1s,
+        height 1s,
+        width 1s,
+        margin-left 10s,
+        font-size 5s,
+        line-height 10s;
+        cursor: none;
+      }
+      .soleil:hover{
+        border-radius: 50px;
+        height: 50px;
+        width: 50px;
+        margin-left: 400px; 
+        color: rgb(255, 208, 0);
+        font-size: 20px;
+        line-height: 40px;
+      }
+      .cloud{
+        border-style: solid;
+        display: inline-block;
+        height: 20px;
+        width: 50px;
+        border-color: rgb(114, 120, 121);
+        background-color: rgb(114, 120, 121); 
+        transition: box-shadow 1s,
+        background-color 1s,
+        border-color 1s;
+        cursor: none;
+
+      }
+      .cloud:hover{
+        border-color: rgb(68, 69, 70);
+        background-color: rgb(68, 69, 70); 
+        box-shadow: 0px 0px 30px rgba(255, 255, 255, 10);
+      }
+      .herbe{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: green;
+        border-color: green;
+        border-style: solid;
+        height: 20px;
+      }
+      .herbe:hover{
+        height: 23px;
+        border-color: rgb(6, 189, 6);
+
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    <div class="ciel">
+      <div class="soleil"><p>the legend of hehind sun</p></div>
+    </div>
+    <div class="ciel">
+      <div class="cloud"></div>
+      <div class="cloud"></div>
+    </div>
+    <div class="ciel">
+      <div class="cloud"></div>
+      <div class="cloud"></div>
+      <div class="cloud"></div>
+    </div>
+    <div class="ciel">
+      <div class="cloud"></div>
+      <div class="cloud"></div>
+      <div class="cloud"></div>
+      <div class="cloud"></div>
+      <div class="cloud"></div>
+    </div>
+    <div class="ciel">
+      <div class="cloud"></div>
+      <div class="cloud"></div>
+      <div class="cloud"></div>
+      <div class="cloud"></div>
+    </div>
+    <div class="ciel"></div>
+    <div class="ciel"></div>
+    <div class="ciel"></div>
+    <div class="ciel"></div>
+    <div class="herbe"></div>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>infos box</title>
+    <style>
+      .infos-box{
+        display: grid;
+        row-gap: 30px;
+        background-color: rgb(11, 83, 11);
+        border-style: solid;
+        border-color: rgb(11, 218, 11);
+        border-radius: 20px;
+        
+      }
+      .f-name{
+        background-color: black;
+        border-color: rgb(11, 218, 11);
+        height: 40px;
+        border-style: solid;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        color: white;
+      }
+      .l-name{
+        background-color: black;
+        border-color: rgb(11, 218, 11);
+        height: 40px;
+        border-style: solid;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        color: white;
+      }
+      .mail{
+        background-color: black;
+        border-color: rgb(11, 218, 11);
+        height: 40px;
+        border-style: solid;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        color: white;
+        margin-bottom: 20px;
+      }
+      .connect{
+        background-color: black;
+        border-color: rgb(11, 218, 11);
+        height: 40px;
+        border-style: solid;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        color: white;
+        margin-bottom: 20px;
+        transition: background-color 1s,
+        color 1s,
+        margin-left 1s,
+        margin-right 1s,
+        box-shadow 1s,
+        border-color 1s;
+
+      }
+      .connect:hover{
+        background-color: white;
+        color: black;
+        margin-left: 100px;
+        margin-right:100px;
+        box-shadow: 0px 0px 10px rgba(255, 255, 255, 10);
+        border-color: black;
+      }
+      .connect:active{
+        opacity: 0.4;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="infos-box">
+      <input type="text" placeholder="enter your fist name" class="f-name">
+      <input type="text" placeholder="enter your larst name" class="l-name">
+      <input type="text" placeholder="enter your email" class="mail">
+      <button class="connect">connect</button>
+    </div>
+  </body>
+</html>

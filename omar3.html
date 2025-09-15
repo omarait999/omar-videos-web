@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>omar3</title>
+    <style>
+      .post-space{
+        width: 400px;
+        height: 300px;
+        display: inline-block;
+        border-style: solid;
+        background-color: black;
+        border-color: blue;
+        border-width: 2px;
+        border-radius: 10px;
+
+      }
+      .profil-picture{
+        width: 50px;
+        height:50px;
+        border-radius: 50px;
+        object-fit: cover;
+        display: inline-block;
+        border-style: solid;
+        border-color: blue;
+        border-width: 2px;
+        margin-left: 10px;
+        margin-top: 5px;
+        cursor: pointer;
+        transition: width 1s,
+        height 1s,
+        box-shadow 1s;
+
+      }
+      .profil-picture:hover{
+        width: 60px;
+        height: 60px;
+        box-shadow: 0px 0px 15px rgba(255, 255, 255, 10);
+      }
+      .profil-picture:active{
+        opacity: 0.5;
+      }
+      .profil-name{
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 20px;
+        margin-top: 20px;
+        font-family: arial;
+        font-size: 15px;
+        font-weight: bold;
+        color: blue;
+        cursor: pointer;
+      }
+      .profil-name:hover{
+        text-decoration: underline;
+       
+      }
+      .writer{
+        color: rgb(141, 141, 180);
+        font-size: 13px;
+      }
+      .post-time{
+        display: inline-block;
+        color: rgb(141, 141, 180);
+        vertical-align: top;
+        margin-top: 21px;
+        margin-left: 20px;
+        font-family: arial;
+        font-size: 13px;
+      }
+      .post{
+        font-family: arial;
+        color: white;
+        margin-left: 15px;
+        margin-right: 10px;
+        width: 350px;
+        height: 100px;
+        border-style: solid;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-color: blue;
+        border-width: 2px;
+        transition: height 1s,
+        box-shadow 1s,
+        line-height 1s;
+        
+      }
+      .post:hover{
+        height: 150px;
+        box-shadow: 0px 0px 10px rgba(255, 255, 255, 10);
+        line-height: 25px;
+      }
+      .like{
+        display: inline-block;
+        background-color: blue;
+        color: white;
+        border-color: blue;
+        border-radius: 15px;
+        width: 70px;
+        height: 30px;
+        margin-left: 40px;
+        cursor: pointer;
+        transition: height 1s,
+        border-color 1s,
+        color 1s,
+        background-color 1s;
+      }
+      .like:hover{
+        height: 40px;
+        border-color: blue;
+        background-color: black;
+        color: white;
+      }
+      .like:active{
+        opacity: 0.5;
+      }
+      .comment{
+        display: inline-block;
+        background-color: blue;
+        color: white;
+        border-color: blue;
+        border-radius: 15px;
+        width: 70px;
+        height: 30px;
+        margin-left: 40px;
+        cursor: pointer;
+        transition: height 1s,
+        border-color 1s,
+        color 1s,
+        background-color 1s;
+      }
+      .comment:hover{
+        height: 40px;
+        border-color: blue;
+        background-color: black;
+        color: white;
+      }
+      .comment:active{
+        opacity: 0.5;
+      }
+      .share{
+        display: inline-block;
+        background-color: blue;
+        color: white;
+        border-color: blue;
+        border-radius: 15px;
+        width: 70px;
+        height: 30px;
+        margin-left: 40px;
+        cursor: pointer;
+      transition: height 1s,
+        border-color 1s,
+        color 1s,
+        background-color 1s;
+      }
+    
+      .share:hover{
+        height: 40px;
+        border-color: blue;
+        background-color: black;
+        color: white;
+      }
+      .share:active{
+        opacity: 0.5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="post-space">
+      <div class="profil-space">
+        <img src="thumbnaills/tigre profil.jpg" class="profil-picture">
+      <p class="profil-name">
+        Omar AIT AHMED <span class="writer">(writrer)</span>
+      </p>
+      <p class=post-time>
+         3h ago
+      </p>
+      </div>
+      <p class="post">
+        Je pense que nos avantages ne sont pas réels, ils sont juste des illusions GUUUG!!
+      </p>
+      <div class="react-space">
+        <button class="like">
+          like
+        </button>
+        <button class="comment">
+          comment
+        </button>
+        <button class="share">
+          share
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

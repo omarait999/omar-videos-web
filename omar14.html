@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>connect box</title>
+    <style>
+      .space{
+        display: grid;
+        bacKground-color: rgb(36, 36, 36);
+        border-style: solid;
+        border-color: black;
+        text-align: center;
+        row-gap: 20px;
+      }
+      .user{
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 20px;
+        height: 40px;
+        border-style: solid;
+        border-color:aqua;
+        background-color: aqua;
+        border-radius: 40px;
+        text-align: center;
+      }
+      .user:hover{
+        box-shadow: 0px 0px 10px rgba(255, 255, 255, 10);
+      }
+      .word{
+        margin-left: 100px;
+        margin-right: 100px;
+        height: 40px;
+        border-style: solid;
+        border-color:aqua;
+        background-color: aqua;
+        border-radius: 40px;
+        text-align: center;
+      }
+      .word:hover{
+        box-shadow: 0px 0px 10px rgba(255, 255, 255, 10);
+      }
+      .connect{
+        width: 150px;
+        height: 40px;
+        background-color: white;
+        border-style: solid;
+        border-color: white;
+        border-radius: 40px;
+        font-family: arial;
+      }
+      .connect:hover{
+        box-shadow: 0px 0px 10px rgba(0, 255, 255, 10);
+      }
+      .connect:active{
+        opacity: 0.5;
+      }
+      .creat{
+        width: 150px;
+        height: 40px;
+        background-color: white;
+        border-style: solid;
+        border-color: white;
+        border-radius: 40px;
+        font-family: arial;
+      }
+      .creat:hover{
+        box-shadow: 0px 0px 10px rgba(0, 255, 255, 10);
+      }
+      .creat:active{
+        opacity: 0.5;
+      }
+      .alert{
+        font-family: arial;
+        color: aqua;
+      }
+      .button-ext{
+        background-color: white;
+        border-color: white;
+        width: 40px;
+        height: 20px;
+        display: inline-block;
+        border-radius: 20px;
+        
+      }
+      .button-int{
+        background-color: blue;
+        border-color: blue;
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        border-radius: 20px;
+        vertical-align: top;
+        margin-right: 20px;
+
+      }
+      .button-int:active{
+        margin-left: 20px;
+       
+      }
+      .button-ext:active{
+        background-color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="space">
+      <input type="text" placeholder="user name" class="user">
+      <input type="text" placeholder="pass word" class="word">
+      <div>
+        <button class="connect"> connect </button>
+        <button class="creat"> creat a new account </button>
+      </div>
+      <p class="alert">this website can arrive to your phone folders, for continuing you have just click on this buttton</p>
+      <div class="button-ext">
+        <div class="button-int"></div>
+      </div>
+    </div>
+
+  </body>
+</html>
